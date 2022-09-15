@@ -117,22 +117,44 @@
             border-radius: 50%;
             border: 1px solid grey;
             padding: 10px;}
-        @media (max-width: 1472px) and (min-width: 992px) {
+        @media (max-width: 1472px)  {
         	.navbar a{
-        		font-size: 9px;}
+        		font-size: 15px;}
         	.main-section{
         		margin-right: 15%;
         		margin-left: 15%;
         		
         	}
         }
-        @media (max-width: 768px) and (min-width: 576px) {
+        @media (max-width: 992px){
+            .navbar a{
+                font-size: 9.5px;}
+            .main-section{
+                margin-right: 15%;
+                margin-left: 15%;
+
+        }
+        @media (max-width: 768px){
         	.navbar a{
-                    font-size: 5px;
+                    font-size: 7px;
+
         	}
         	.main-section{
         		font-size: 15px;
+               
         		margin-left: 5%;
         		margin-right: 5%;
         	}
+        } 
+        @media (max-width: 576px){
+            .navbar a{
+                    font-size: 5px;
+
+            }
+            .main-section{
+                font-size: 15px;
+               
+                margin-left: 5%;
+                margin-right: 5%;
+            }
         } 
